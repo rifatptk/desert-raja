@@ -6,7 +6,7 @@ import Topbar from '../common/Topbar';
 const PageLayout = ({ children }) => {
   return (
     <div className="font-poppins text-brand-dark-blue">
-      <Container>
+      <Container className="px-0">
         <Topbar />
         <Navbar />
       </Container>
