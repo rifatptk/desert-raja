@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Topbar = () => {
   return (
     <div className="hidden md:block">
-      <div className="flex justify-between text-sm py-6">
+      <div className="flex justify-between text-sm py-6 text-brand-light-gray">
         <div className="flex gap-4">
           <div className="flex gap-2 items-center">
             <FaPhoneAlt />
