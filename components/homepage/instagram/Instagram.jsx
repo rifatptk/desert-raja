@@ -34,6 +34,13 @@ const Instagram = () => {
           frameborder="0"
         />
       </div>
+      <div className="h-20"></div>
+      <a
+        className="bg-brand hover:bg-brand-orange rounded text-white px-[20px] py-[10px] my-10 w-fit mx-auto block"
+        href="https://www.instagram.com/desertraja/"
+      >
+        Find Us on Instagram
+      </a>
     </section>
   );
 };
