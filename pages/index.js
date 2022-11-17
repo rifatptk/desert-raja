@@ -10,6 +10,8 @@ import Hero from '../components/homepage/Hero';
 import Discount from '../components/homepage/Discount';
 import Instagram from '../components/homepage/instagram/Instagram';
 import { homepageHeadData } from '../constants/constants';
+import Accordion from '../components/homepage/accordion/Accordion';
+
 
 
 export default function Home() {
@@ -18,13 +20,17 @@ export default function Home() {
     <div>
       <Head>{homepageHeadData}</Head>
       <Hero />
-      <Container>
-        <Activities />
-        <Instagram />
-      </Container>
+      <BookTheBest />
       <ExploreOurDesert />
       <WhyChoose />
+      <Container>
+        <Activities />
+      </Container>
       <Discount />
+      <Accordion />
+      <Container>
+        <Instagram />
+      </Container>
     </div>
   );
 }
