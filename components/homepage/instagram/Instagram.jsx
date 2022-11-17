@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Instagram = () => {
   return (
     <section id="instagram" className="my-20">
