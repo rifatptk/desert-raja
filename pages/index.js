@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Container from '../components/common/Container';
+import BookTheBest from '../components/homepage/BookTheBest';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <Container>
         <h1 className="text-4xl font-bold">hello world</h1>
+        <BookTheBest />
       </Container>
     </div>
   );
