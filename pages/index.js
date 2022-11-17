@@ -5,6 +5,7 @@ import Container from '../components/common/Container';
 import Activities from '../components/homepage/activities/Activities';
 import BookTheBest from '../components/homepage/BookTheBest';
 import Hero from '../components/homepage/Hero';
+import Instagram from '../components/homepage/instagram/Instagram';
 import { homepageHeadData } from '../constants/constants';
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Container>
         <Activities />
+        <Instagram />
       </Container>
     </div>
   );
