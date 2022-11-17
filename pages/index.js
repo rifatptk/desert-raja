@@ -6,6 +6,8 @@ import ExploreOurDesert from '../components/homepage/ExploreOurDesert';
 import WhyChoose from '../components/homepage/WhyChoose';
 
 import Hero from '../components/homepage/Hero';
+import Discount from '../components/homepage/Discount';
+
 
 
 export default function Home() {
@@ -22,6 +24,7 @@ export default function Home() {
       </Container>
       <ExploreOurDesert />
       <WhyChoose />
+      <Discount />
     </div>
   );
 }
