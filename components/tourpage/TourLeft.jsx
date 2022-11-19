@@ -1,5 +1,7 @@
 import React from "react";
 import Highilghts from "./Highilghts";
+import Lncluded from "./Lncluded";
+import Ltinerary from "./Ltinerary";
 import Overview from "./Overview";
 
 const TourLeft = () => {
@@ -7,7 +9,7 @@ const TourLeft = () => {
     <div>
       <h2 className="text-[36px] font-semibold mb-5">Evening Desert Safari Dubai – Desert Raja</h2>
       <div className="w-full h-[1px] bg-brand-light-gray"></div>
-      <div className="flex items-center justify-between py-5">
+      <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between py-5">
         <div className="flex items-center gap-2">
           <div>
             <img src="/assets/images/tour/car-1.png" alt="" className="w-[36px] h-[36px]"/>
@@ -60,6 +62,9 @@ const TourLeft = () => {
       </div>
       <Overview />
       <Highilghts />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Ltinerary />
+      <Lncluded />
     </div>
   );
 };

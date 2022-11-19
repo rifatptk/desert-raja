@@ -25,7 +25,7 @@ const tour = () => {
             <div className="flex-[3]">
                 <TourLeft />
             </div>
-            <div className="flex-[1]">
+            <div className="flex-[1] hidden lg:flex">
                 
             </div>
         </div>
