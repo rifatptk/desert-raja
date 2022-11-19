@@ -22,3 +22,11 @@
     background-repeat: no-repeat;
     width: 100%;
 }
+
+#PackageHero{
+    background: url('/assets/images/packages/desert-raja-contact-page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}

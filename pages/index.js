@@ -23,14 +23,14 @@ export default function Home() {
       <BookTheBest />
       <ExploreOurDesert />
       <WhyChoose />
-      <Container>
+      {/* <Container>
         <Activities />
-      </Container>
+      </Container> */}
       <Discount />
       <Accordion />
-      <Container>
+      {/* <Container>
         <Instagram />
-      </Container>
+      </Container> */}
     </div>
   );
 }

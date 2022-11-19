@@ -73,8 +73,6 @@ const Accordion = () => {
         },
     ]
 
-    console.log(select)
-
   return (
     <section id='Questions'>
         <Container>
