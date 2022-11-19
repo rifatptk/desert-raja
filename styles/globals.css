@@ -3,3 +3,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#WhyChoose{
+    background: url('/assets/images/home/home_never_be_alone_bg-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+#discount{
+    background: url('/assets/images/home/discount-on-quantity.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#PackageHero{
+    background: url('/assets/images/packages/desert-raja-contact-page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#over_view h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#over_view p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+#over_view ul{
+    list-style: disc;
+    font-size: 14px;
+    padding-left: 50px;
+}
