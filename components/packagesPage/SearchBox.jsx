@@ -4,6 +4,7 @@ import Container from "../common/Container";
 import {MdKeyboardArrowDown} from "react-icons/md"
 import {TbCalendarTime} from "react-icons/tb"
 import {AiOutlineUsergroupAdd} from "react-icons/ai"
+import DateRange from "./DateRange";
 
 const SearchBox = () => {
   return (

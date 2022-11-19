@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ item }) => {
   return (
-    <div className=" bg-white shadow-2xl p-4 rounded-3xl">
+    <div className=" bg-white shadow-2xl p-4 rounded-3xl relative">
       <div className=" rounded-2xl overflow-hidden">
         <img
           src={item.img}
@@ -10,6 +10,7 @@ const Card = ({ item }) => {
           className="hover:scale-110 transition-all duration-500 cursor-pointer"
         />
       </div>
+      <div className=" bg-brand text-white p-1 absolute top-[50px] rounded-r-lg left-0"><h2 className="text-[14px] font-bold">{item.head}</h2></div>
       <div className="mt-5 min-h-[250px] mb-2">
         <h2 className="text-[18px] font-semibold cursor-pointer hover:text-brand-red transition-all duration-500 mb-3">
           {item.title}
@@ -88,7 +89,7 @@ const Card = ({ item }) => {
           <span>person</span>
         </div>
         <div>
-        <button className=" bg-[#ec927e] py-[15px] px-[30px] rounded-full text-[14px] space-x-1 font-bold uppercase text-white transition-all duration-300 shadow-[0px_5px_0px_1px_#df5334] hover:shadow-none">Book Now</button>
+        <button className=" bg-[#ec927e] py-[15px] px-[30px] rounded-full text-[14px] space-x-1 font-bold uppercase text-white transition-all duration-300 shadow-[0px_5px_0px_1px_#df5334] hover:shadow-none hover:translate-y-1">Book Now</button>
         </div>
       </div>
     </div>

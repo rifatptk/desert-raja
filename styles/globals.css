@@ -30,3 +30,21 @@
     background-repeat: no-repeat;
     width: 100%;
 }
+
+#over_view h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#over_view p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+#over_view ul{
+    list-style: disc;
+    font-size: 14px;
+    padding-left: 50px;
+}
