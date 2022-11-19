@@ -6,6 +6,8 @@ import Overview from "./Overview";
 import {FiSettings} from "react-icons/fi"
 
 import RiSlider from '../slider/RiSlider';
+import Cancellation from "./Cancellation";
+import Covid from "./Covid";
 
 
 
@@ -112,6 +114,10 @@ const TourLeft = () => {
             <p>7 hours</p>
         </div>
       </div>
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Cancellation />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Covid />
       <div className="w-full h-[2px] bg-brand-light-gray"></div>
     </div>
   );
