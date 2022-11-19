@@ -43,7 +43,7 @@ const ExploreOurDesert = () => {
   ];
 
   return (
-    <section id="ExploreOurDesert" className=" bg-brand-light-gray py-7">
+    <section id="ExploreOurDesert" className=" py-7">
       <Container>
         <div>
           <div className=" text-center">
