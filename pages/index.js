@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import { useState } from 'react';
-import ReactCardFlip from 'react-card-flip';
 import Container from '../components/common/Container';
 import Activities from '../components/homepage/activities/Activities';
 import BookTheBest from '../components/homepage/BookTheBest';
@@ -12,10 +10,7 @@ import Instagram from '../components/homepage/instagram/Instagram';
 import { homepageHeadData } from '../constants/constants';
 import Accordion from '../components/homepage/accordion/Accordion';
 
-
-
 export default function Home() {
-  const [isFlipped, setisFlipped] = useState(false);
   return (
     <div>
       <Head>{homepageHeadData}</Head>
@@ -23,14 +18,14 @@ export default function Home() {
       <BookTheBest />
       <ExploreOurDesert />
       <WhyChoose />
-      {/* <Container>
+      <Container>
         <Activities />
-      </Container> */}
+      </Container>
       <Discount />
       <Accordion />
-      {/* <Container>
+      <Container>
         <Instagram />
-      </Container> */}
+      </Container>
     </div>
   );
 }
