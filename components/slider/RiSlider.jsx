@@ -26,7 +26,7 @@ const RiSlider = ({ items }) => {
   return (
     <div
       className={`w-full h-full bg-white select-none  ${
-        full ? 'fixed inset-0 ' : 'my-8'
+        full ? 'fixed inset-0 z-50' : 'my-8'
       }`}
     >
       {/* main image */}
@@ -104,7 +104,7 @@ const RiSlider = ({ items }) => {
             key={i}
             src={el}
             alt=""
-            className={`w-20 md:w-[130px] aspect-square object-cover  border-2 cursor-pointer ${
+            className={`w-20 md:w-[130px] aspect-square object-cover border-2 cursor-pointer ${
               i === selected ? 'border-brand' : 'border-transparent'
             }`}
           />
