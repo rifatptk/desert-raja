@@ -25,20 +25,22 @@ const RiSlider = ({ items }) => {
   }
   return (
     <div
-      className={`w-full h-full bg-white select-none  ${
-        full ? 'fixed inset-0 ' : 'my-8'
+      className={`w-full bg-white select-none ${
+        full ? 'fixed inset-0 z-50' : 'my-8'
       }`}
     >
       {/* main image */}
       <div
-        className="relative w-full h-full bg-gray-800"
+        className="relative w-full bg-gray-900"
         onMouseOver={() => sethovered(true)}
         onMouseLeave={() => sethovered(false)}
       >
         <img
           src={items[selected]}
           alt=""
-          className="mx-auto w-full aspect-video object-cover"
+          className={`mx-auto w-full aspect-video ${
+            full ? 'h-[calc(100vh-146px)] object-contain' : ''
+          }`}
         />
 
         {/* controller icons */}
@@ -97,14 +99,18 @@ const RiSlider = ({ items }) => {
       </div>
 
       {/* slider */}
-      <div className="flex gap-2 mt-2 overflow-auto [&::-webkit-scrollbar]:hidden">
+      <div
+        className={`flex gap-2 py-2 overflow-auto [&::-webkit-scrollbar]:hidden ${
+          full ? 'bg-gray-900' : ''
+        }`}
+      >
         {items.map((el, i) => (
           <img
             onClick={() => setSelected(i)}
             key={i}
             src={el}
             alt=""
-            className={`w-20 md:w-[130px] aspect-square object-cover  border-2 cursor-pointer ${
+            className={`w-20 md:w-[130px] aspect-square object-cover border-2 cursor-pointer ${
               i === selected ? 'border-brand' : 'border-transparent'
             }`}
           />

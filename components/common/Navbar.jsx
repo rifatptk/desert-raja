@@ -11,9 +11,10 @@ const navLinks = [
     title: 'TOURS',
     to: '',
     subLinks: [
-      { title: 'Evening Deser Safari', to: '' },
-      { title: 'Morning Deser Safari', to: '' },
-      { title: 'Overnight Deser Safari', to: '' },
+      { title: 'Evening Desert Safari', to: '/tour/evening-desert' },
+      { title: 'Morning Desert Safari', to: '/tour/morning-desert' },
+      { title: 'Overnight Desert Safari', to: '/tour/midnight-desert' },
+      { title: 'Packages', to: '/packages' },
     ],
   },
   { title: 'ABOUT US', to: '' },
@@ -75,19 +76,20 @@ const Navbar = () => {
                         </div>
                         {toursExpanded && (
                           <div
-                            className="absolute -top-8 w-[200px]"
+                            className="absolute -top-8 w-[240px] text-brand-dark-blue"
                             onMouseOver={() => settoursExpanded(true)}
                             onMouseOut={() => settoursExpanded(false)}
                           >
                             <div className="bg-transparent h-20 "></div>
-                            <div className=" bg-white divide-y">
+                            <div className=" bg-white divide-y shadow-lg">
                               {link.subLinks.map((link, i) => (
-                                <div
+                                <Link
+                                  href={link.to}
                                   key={i}
-                                  className="px-6 py-5 text-sm font-[500] cursor-pointer hover:text-brand transition-colors"
+                                  className="px-6 block py-5 text-sm font-[500] cursor-pointer hover:text-brand transition-colors"
                                 >
                                   <Link href={link.to}>{link.title}</Link>
-                                </div>
+                                </Link>
                               ))}
                             </div>
                           </div>
