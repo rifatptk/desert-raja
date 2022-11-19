@@ -1,7 +1,8 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Link from 'next/link';
 
 const HomeSlyder = ({ data }) => {
   var settings = {
@@ -12,7 +13,7 @@ const HomeSlyder = ({ data }) => {
     slidesToScroll: 1,
     initialSlide: 0,
     arrows: false,
-    centerPadding: "60px",
+    centerPadding: '60px',
     responsive: [
       {
         breakpoint: 1024,
@@ -46,17 +47,23 @@ const HomeSlyder = ({ data }) => {
       <Slider {...settings}>
         {data?.map((item, index) => {
           return (
-            <div key={index}>
+            <Link href={item.to} key={index}>
               <div className="mr-5">
                 <div className=" relative overflow-hidden">
-                  <img src={item.img} alt="rrr" className=" hover:scale-110 duration-300 transition-all cursor-pointer"/>
+                  <img
+                    src={item.img}
+                    alt="rrr"
+                    className=" hover:scale-110 duration-300 transition-all cursor-pointer"
+                  />
                   <div className=" bg-brand text-white absolute top-0 left-0">
                     <h3 className="text-[18px] font-[500] p-5">{item.aed}</h3>
                   </div>
                 </div>
 
                 <div className="mt-[20px]">
-                  <h2 className="text-[18px] font-[500] text-brand-dark-blue mb-[14px] hover:cursor-pointer hover:underline">{item.name}</h2>
+                  <h2 className="text-[18px] font-[500] text-brand-dark-blue mb-[14px] hover:cursor-pointer hover:underline">
+                    {item.name}
+                  </h2>
                   <div className="flex items-center gap-[30px] mb-10">
                     <div className="flex items-center gap-3">
                       <svg
@@ -90,7 +97,7 @@ const HomeSlyder = ({ data }) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </Slider>

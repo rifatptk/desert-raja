@@ -3,7 +3,7 @@ import {MdKeyboardArrowUp} from "react-icons/md"
 
 const Ltinerary = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 mb-8">
       <h2 className="text-[24px] font-semibold mb-5">Itinerary</h2>
       <div className=" border border-l-green-400 border-l-4 border-brand-light-gray bg-[#FCFCFC] py-8 px-5">
         <div className="w-full text-[24px] flex items-end justify-end mb-5"><MdKeyboardArrowUp /></div>
