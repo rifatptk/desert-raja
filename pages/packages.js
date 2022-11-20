@@ -42,7 +42,7 @@ const packages = () => {
   return (
     <div>
         <PackageHero />
-        <SearchBox />
+        {/* <SearchBox /> */}
         <div className='w-full h-[1px] bg-brand-light-gray'></div>
         <ToursCard data={data}/>
         {/* <TestButton /> */}

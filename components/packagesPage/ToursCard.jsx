@@ -8,7 +8,7 @@ const ToursCard = ({data}) => {
         <Container>
             <div className='py-[80px]'>
                 <div className='mb-[30px]'>
-                    <h2 className='text-[24px] font-bold'>3 TOURS FOUND</h2>
+                    <h2 className='text-[24px] font-bold'>2 TOURS FOUND</h2>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
                     {
