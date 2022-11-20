@@ -267,13 +267,13 @@ const Overview = () => {
             onClick={() => setShow((priv) => !priv)}
             className="mt-5 text-brand text-[14px] hover:underline flex items-center"
           >
-            View More <RiArrowUpSFill className="text-[20px]" />
+            View More <RiArrowDownSFill className="text-[20px]" />
           </button>:
            <button
            onClick={() => setShow((priv) => !priv)}
            className="mt-5 text-brand text-[14px] hover:underline flex items-center"
          >
-           View Less <RiArrowDownSFill className="text-[20px]" />
+           View Less <RiArrowUpSFill className="text-[20px]" />
          </button>
         }
     </div>

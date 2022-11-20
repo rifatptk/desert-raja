@@ -8,6 +8,7 @@ import {FiSettings} from "react-icons/fi"
 import RiSlider from '../slider/RiSlider';
 import Cancellation from "./Cancellation";
 import Covid from "./Covid";
+import TourFaq from "./TourFaq";
 
 
 
@@ -108,7 +109,7 @@ const TourLeft = () => {
       <Lncluded />
       <div className="w-full h-[2px] bg-brand-light-gray"></div>
       <div className="mt-5">
-        <h2 className="text-[24px] font-semibold mb-5">Durations</h2>
+        <h2 className="text-[16px] font-semibold mb-5">Durations</h2>
         <div className="flex items-center gap-5 mb-8">
             <FiSettings />
             <p>7 hours</p>
@@ -119,6 +120,8 @@ const TourLeft = () => {
       <div className="w-full h-[2px] bg-brand-light-gray"></div>
       <Covid />
       <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <div className="w-full h-[4px] mt-7 bg-brand-light-gray"></div>
+      <TourFaq />
     </div>
   );
 };
