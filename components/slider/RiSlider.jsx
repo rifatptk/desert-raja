@@ -39,7 +39,7 @@ const RiSlider = ({ items }) => {
           src={items[selected]}
           alt=""
           className={`mx-auto w-full aspect-video ${
-            full ? 'h-[calc(100vh-146px)] object-contain' : ''
+            full ? 'h-[calc(100vh-154px)] object-contain' : 'object-cover'
           }`}
         />
 
@@ -100,7 +100,7 @@ const RiSlider = ({ items }) => {
 
       {/* slider */}
       <div
-        className={`flex gap-2 py-2 overflow-auto [&::-webkit-scrollbar]:hidden ${
+        className={`flex gap-2 py-2 overflow-auto [&::-webkit-scrollbar]:bg-brand/20 [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-thumb]:bg-brand [&::-webkit-scrollbar-thumb]:rounded-full ${
           full ? 'bg-gray-900' : ''
         }`}
       >

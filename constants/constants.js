@@ -56,6 +56,7 @@ export const homepageHeadData = (
     <meta name="twitter:data1" content="desertraja" />
     <meta name="twitter:label2" content="Time to read" />
     <meta name="twitter:data2" content="42 minutes" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
   </>
 );
 
