@@ -1,7 +1,16 @@
-import React from 'react';
+import React from "react";
+import Highilghts from "./Highilghts";
+import Lncluded from "./Lncluded";
+import Ltinerary from "./Ltinerary";
+import Overview from "./Overview";
+import {FiSettings} from "react-icons/fi"
+
 import RiSlider from '../slider/RiSlider';
-import Highilghts from './Highilghts';
-import Overview from './Overview';
+import Cancellation from "./Cancellation";
+import Covid from "./Covid";
+import TourFaq from "./TourFaq";
+
+
 
 const data = [
   '/assets/images/home/dune-bashing.jpg',
@@ -21,6 +30,7 @@ const data = [
   'https://s.fotorama.io/3.jpg',
 ];
 
+
 const TourLeft = () => {
   return (
     <div>
@@ -28,7 +38,7 @@ const TourLeft = () => {
         Evening Desert Safari Dubai – Desert Raja
       </h2>
       <div className="w-full h-[1px] bg-brand-light-gray"></div>
-      <div className="flex items-center justify-between py-5">
+      <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between py-5">
         <div className="flex items-center gap-2">
           <div>
             <img
@@ -93,6 +103,25 @@ const TourLeft = () => {
       <RiSlider items={data} />
       <Overview />
       <Highilghts />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Ltinerary />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Lncluded />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <div className="mt-5">
+        <h2 className="text-[16px] font-semibold mb-5">Durations</h2>
+        <div className="flex items-center gap-5 mb-8">
+            <FiSettings />
+            <p>7 hours</p>
+        </div>
+      </div>
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Cancellation />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <Covid />
+      <div className="w-full h-[2px] bg-brand-light-gray"></div>
+      <div className="w-full h-[4px] mt-7 bg-brand-light-gray"></div>
+      <TourFaq />
     </div>
   );
 };

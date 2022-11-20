@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
+import AlsoLike from '../../components/tourpage/AlsoLike';
 import Calendar from '../../components/tourpage/Calendar';
 import TourLeft from '../../components/tourpage/TourLeft';
 import TourPage from '../../components/tourpage/TourPage';
@@ -30,6 +31,7 @@ const tour = () => {
             <Calendar />
           </div>
         </div>
+        <AlsoLike />
       </Container>
     </div>
   );
