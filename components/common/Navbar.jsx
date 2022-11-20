@@ -11,10 +11,9 @@ const navLinks = [
     title: 'TOURS',
     to: '',
     subLinks: [
-      { title: 'Evening Desert Safari', to: '/tour/evening-desert' },
-      { title: 'Morning Desert Safari', to: '/tour/morning-desert' },
-      { title: 'Overnight Desert Safari', to: '/tour/midnight-desert' },
-      { title: 'Packages', to: '/packages' },
+      { title: 'Evening Desert Safari', to: '/packages' },
+      { title: 'Morning Desert Safari', to: '/morning-desert-safari' },
+      { title: 'Overnight Desert Safari', to: '/overnight-sesert' },
     ],
   },
   { title: 'ABOUT US', to: '' },
@@ -25,6 +24,7 @@ const navLinks = [
 
 const Navbar = () => {
   const [activeLink, setactiveLink] = useState(0);
+  const [subactive,setSubactive] = useState(0)
   const [showSidebar, setshowSidebar] = useState(false);
   const [toursExpanded, settoursExpanded] = useState(false);
   const router = useRouter();
@@ -68,7 +68,7 @@ const Navbar = () => {
                         <div
                           className={`flex justify-between items-center ${
                             toursExpanded ? 'text-brand' : ''
-                          } transition-colors`}
+                          } transition-colors `}
                           onMouseOver={() => settoursExpanded(true)}
                         >
                           <span>{link.title}</span>
@@ -85,8 +85,9 @@ const Navbar = () => {
                               {link.subLinks.map((link, i) => (
                                 <Link
                                   href={link.to}
+                                  onClick={()=>setSubactive(i)}
                                   key={i}
-                                  className="px-6 block py-5 text-sm font-[500] cursor-pointer hover:text-brand transition-colors"
+                                  className={`px-6 block py-5 text-sm font-[500] cursor-pointer hover:text-brand transition-colors ${subactive === i ? 'text-brand' : ''}`}
                                 >
                                   <Link href={link.to}>{link.title}</Link>
                                 </Link>

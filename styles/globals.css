@@ -37,6 +37,12 @@
     margin-bottom: 10px;
 }
 
+#over_view h3{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 #over_view p{
     font-size: 14px;
     margin-bottom: 10px;
@@ -76,4 +82,10 @@
     color: black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+
+.button-our{
+    background: linear-gradient(135deg, rgb(138, 113, 109), rgb(232, 183, 148));
+    box-shadow: rgb(138 113 109 / 50%) 0px 2px 16px;
 }

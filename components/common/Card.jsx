@@ -1,14 +1,17 @@
+import Link from "next/link";
 import React from "react";
 
 const Card = ({ item }) => {
   return (
     <div className=" bg-white shadow-2xl p-4 rounded-3xl relative">
       <div className=" rounded-2xl overflow-hidden">
+      <Link href={item.to}>
         <img
           src={item.img}
           alt=""
           className="hover:scale-110 transition-all duration-500 cursor-pointer"
         />
+        </Link>
       </div>
       <div className=" bg-brand text-white p-1 absolute top-[50px] rounded-r-lg left-0"><h2 className="text-[14px] font-bold">{item.head}</h2></div>
       <div className="mt-5 min-h-[250px] mb-2">
@@ -34,15 +37,15 @@ const Card = ({ item }) => {
               ></path>
               <path
                 fill="#ec927e"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M18.75 3h2.75c1.105 0 2 .895 2 2v17c0 1.105-.895 2-2 2h-19c-1.105 0-2-.895-2-2V5c0-1.105.895-2 2-2H4c.276 0 .5.224.5.5v2.25c0 .414.336.75.75.75S6 6.164 6 5.75V1c0-.552.448-1 1-1s1 .448 1 1v1.751c0 .138.112.249.25.249h6.25c.276 0 .5.224.5.5v2.25c0 .414.336.75.75.75s.75-.336.75-.75V1c0-.552.448-1 1-1s1 .448 1 1v1.75c0 .138.112.25.25.25zm2.75 19c.276 0 .5-.224.5-.5v-12c0-.276-.224-.5-.5-.5h-18c-.276 0-.5.224-.5.5v12c0 .276.224.5.5.5h18z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </div>
           <div>
             <h5 className="text-[14px] font-bold">Duration</h5>
-            <p className="text-[14px] font-normal text-[#123a3280]">7 hours</p>
+            <p className="text-[14px] font-normal text-[#123a3280]">{item.horus}</p>
           </div>
         </div>
         <div className="flex items-start gap-2">
@@ -64,9 +67,9 @@ const Card = ({ item }) => {
               ></path>
               <path
                 fill="#ec927e"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M9.949 17.288c.006-.093-.04-.181-.119-.23v.003c-1.836-1.084-2.72-3.263-2.16-5.32.561-2.057 2.429-3.486 4.561-3.488 2.132-.003 4.003 1.42 4.57 3.477.565 2.056-.314 4.236-2.147 5.325-.08.049-.127.138-.12.232.006.093.064.176.15.213 2.31.978 3.812 3.242 3.816 5.75 0 .276-.224.5-.5.5H6.5c-.276 0-.5-.224-.5-.5.002-2.505 1.497-4.767 3.8-5.75.085-.038.142-.12.149-.212zm-.386-4.863c-.042.184-.063.373-.063.562-.001 1.412 1.072 2.594 2.478 2.727 1.406.133 2.683-.827 2.946-2.214.027-.158-.024-.32-.136-.434-.112-.114-.273-.168-.431-.144-.29.043-.582.065-.874.065-1.119 0-2.216-.304-3.175-.881-.138-.083-.306-.094-.454-.03-.148.062-.256.192-.291.349z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#ec927e"
@@ -77,7 +80,7 @@ const Card = ({ item }) => {
           <div>
             <h5 className="text-[14px] font-bold">Group Size</h5>
             <p className="text-[14px] font-normal text-[#123a3280]">
-              Unlimited
+              {item.limit}
             </p>
           </div>
         </div>
