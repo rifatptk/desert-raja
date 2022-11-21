@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
@@ -5,10 +6,12 @@ import AlsoLike from '../../components/overnight-desert-safari/AlsoLike';
 import Calendar from '../../components/overnight-desert-safari/Calendar';
 import TourLeft from '../../components/overnight-desert-safari/TourLeft';
 import TourPage from '../../components/overnight-desert-safari/TourPage';
+import { homepageHeadData5 } from '../../constants/constants';
 
 const tour = () => {
   return (
     <div>
+      <Head>{homepageHeadData5}</Head>
       <TourPage />
       <Container>
         <div className="flex items-center gap-2 py-5">

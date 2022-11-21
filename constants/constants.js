@@ -60,6 +60,298 @@ export const homepageHeadData = (
   </>
 );
 
+
+export const DesertRaja= (
+  <>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Packages - Desert Raja</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+
+export const homepageHeadData1 = (
+  <>
+            <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Evening Desert Safari Dubai with BBQ Dinner - Sunset Tour</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+
+export const homepageHeadData2 = (
+  <>
+            <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Evening Desert Safari Dubai With Self Driven Quad in an OPEN Desert - Desert Raja - Desert Raja</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+
+export const homepageHeadData3 = (
+  <>
+            <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Evening Desert Safari Dubai w/ Quad in Fenced Big Desert - Desert Raja - Desert Raja</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+
+export const homepageHeadData4 = (
+  <>
+            <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Morning Desert Safari Dubai with Camel Ride & Sand Boarding</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+export const homepageHeadData5 = (
+  <>
+            <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Best Overnight Desert Safari Dubai with BBQ Dinner</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+
+export const homepageHeadData6 = (
+  <>
+            <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=2, minimum-scale=1"/>
+        <meta name="theme-color" content="#ED8323"/>
+        <meta name="robots" content="follow"/>
+        <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+        <meta name="traveler" content="3.0.0"/> 
+        <title>Best Overnight Desert Safari Dubai with BBQ Dinner</title>
+        <meta
+          name="description"
+          content="Enjoy the best desert safari in Dubai to experience the thrill of a lifetime at affordable prices. We offer BBQ Dinner, Camel Safari, Dune Bashing."
+        />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+        <link rel="canonical" href="https://desertraja.com/packages/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Packages - Desert Raja" />
+        <meta property="og:url" content="https://desertraja.com/packages/" />
+        <meta property="og:site_name" content="Desert Raja" />
+        <meta property="article:publisher" content="https://www.facebook.com/desertrajaofficial/" />
+        <meta property="article:author" content="https://www.facebook.com/desertrajaofficial" />
+        <meta property="og:updated_time" content="2021-11-21T08:18:08+00:00" />
+        <meta property="og:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:secure_url" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1281" />
+        <meta property="og:image:alt" content="Packages" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="article:published_time" content="2019-01-11T07:22:59+00:00" />
+        <meta property="article:modified_time" content="2021-11-21T08:18:08+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Packages - Desert Raja" />
+        <meta name="twitter:image" content="https://desertraja.com/wp-content/uploads/2021/11/desert-raja-contact-page.jpg" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute"></meta> 
+        <link rel="icon" type="image/png" href="/favicon.png" />
+  </>
+);
+
+
+
+
+
+
+
 export const activitiesCardsData = [
   {
     img: '/assets/images/home/dune-bashing.jpg',

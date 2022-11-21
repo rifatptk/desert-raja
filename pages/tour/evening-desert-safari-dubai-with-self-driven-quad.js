@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
@@ -5,10 +6,12 @@ import AlsoLike from '../../components/evening-desert-safari-dubai-with-self-dri
 import Calendar from '../../components/evening-desert-safari-dubai-with-self-driven-quad/Calendar';
 import TourLeft from '../../components/evening-desert-safari-dubai-with-self-driven-quad/TourLeft';
 import TourPage from '../../components/evening-desert-safari-dubai-with-self-driven-quad/TourPage';
+import { homepageHeadData2 } from '../../constants/constants';
 
 const tour = () => {
   return (
     <div>
+      <Head>{homepageHeadData2}</Head>
       <TourPage />
       <Container>
         <div className="flex items-center gap-2 py-5">

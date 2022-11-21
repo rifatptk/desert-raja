@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
@@ -5,10 +6,12 @@ import AlsoLike from '../../components/tourpage/AlsoLike';
 import Calendar from '../../components/tourpage/Calendar';
 import TourLeft from '../../components/tourpage/TourLeft';
 import TourPage from '../../components/tourpage/TourPage';
+import { homepageHeadData1 } from '../../constants/constants';
 
 const tour = () => {
   return (
     <div>
+      <Head>{homepageHeadData1}</Head>
       <TourPage />
       <Container>
         <div className="flex items-center gap-2 py-5">

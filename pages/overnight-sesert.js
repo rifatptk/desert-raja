@@ -1,8 +1,10 @@
+import Head from 'next/head'
 import React from 'react'
 import PackageHero from '../components/packagesPage/PackageHero'
 import SearchBox from '../components/packagesPage/SearchBox'
 import TestButton from '../components/packagesPage/TestButton'
 import ToursCard from '../components/packagesPage/ToursCard'
+import { DesertRaja } from '../constants/constants';
 
 const OverNight = () => {
 
@@ -31,6 +33,7 @@ const OverNight = () => {
 
   return (
     <div>
+        <Head>{DesertRaja}</Head>
         <PackageHero />
         {/* <SearchBox /> */}
         <div className='w-full h-[1px] bg-brand-light-gray'></div>

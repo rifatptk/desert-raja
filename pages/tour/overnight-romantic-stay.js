@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
@@ -5,10 +6,12 @@ import AlsoLike from '../../components/overnight-romantic-stay/AlsoLike';
 import Calendar from '../../components/overnight-romantic-stay/Calendar';
 import TourLeft from '../../components/overnight-romantic-stay/TourLeft';
 import TourPage from '../../components/overnight-romantic-stay/TourPage';
+import { homepageHeadData6 } from '../../constants/constants';
 
 const tour = () => {
   return (
     <div>
+      <Head>{homepageHeadData6}</Head>
       <TourPage />
       <Container>
         <div className="flex items-center gap-2 py-5">
