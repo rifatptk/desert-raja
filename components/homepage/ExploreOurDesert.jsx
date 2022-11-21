@@ -14,7 +14,7 @@ const ExploreOurDesert = () => {
       aed: 'AED149 /person',
       unl: 'unlimited',
       hours: '7 hours',
-      to: '/tour/tourID',
+      to: 'to:"/tour/evening-desert-safari"',
     },
     {
       name: 'OverNight Desert Safari Dubai - Desert Raja',
@@ -22,7 +22,7 @@ const ExploreOurDesert = () => {
       aed: 'AED400 /person',
       unl: 'unlimited',
       hours: '12 hours',
-      to: '/tour/overnight-desert',
+      to: '/tour/overnight-desert-safari',
     },
     {
       name: 'Morning Desert Safari Dubai - Desert Raja',
@@ -30,7 +30,7 @@ const ExploreOurDesert = () => {
       aed: 'AED150 /person',
       unl: 'unlimited',
       hours: '7 hours',
-      to: '/tour/morning-desert',
+      to: '/tour/morning-desert-safari',
     },
     {
       name: 'Overnight Romantic Stay',
@@ -38,7 +38,7 @@ const ExploreOurDesert = () => {
       aed: 'AED400 /person',
       unl: '20 people',
       hours: '12 hours',
-      to: '/tour/overnight-desert',
+      to: '/tour/overnight-romantic-stay',
     },
   ];
 
