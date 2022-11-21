@@ -14,7 +14,7 @@ const ExploreOurDesert = () => {
       aed: 'AED149 /person',
       unl: 'unlimited',
       hours: '7 hours',
-      to: 'to:"/tour/evening-desert-safari"',
+      to:"/tour/evening-desert-safari",
     },
     {
       name: 'OverNight Desert Safari Dubai - Desert Raja',
