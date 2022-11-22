@@ -6,9 +6,10 @@ const Calendar = () => {
       frameBorder="0"
       border="0"
       width="100%"
+      height={"500px"}
       src="https://fareharbor.com/embeds/calendar/desertraja/items/337386/?flow=637746&amp;full-items=yes&amp;u=386c5e69-1f04-4490-b1b6-81eb1e90febd&amp;from-ssl=yes&amp;a=yes&amp;back=https://desertraja.com/tour/evening-desert-safari/"
       title="FareHarbor"
-      className="h-[348px]"
+      className="h-[500px]"
     />
   );
 };

@@ -2,8 +2,11 @@ import React from 'react'
 import {TbClock} from "react-icons/tb"
 import {AiTwotoneThunderbolt} from "react-icons/ai"
 import {BsFillHeartFill} from "react-icons/bs"
+import { useRouter } from 'next/router'
 
 function AlsoLike() {
+
+  const router = useRouter()
 
   const data = [
     {
@@ -11,28 +14,32 @@ function AlsoLike() {
       img: '/assets/images/home/overnight-desert-safari-1-740x680.webp',
       aed: 'AED149',
       hours: '7 hours',
+      to:"/tour/evening-desert-safari",
     },
     {
       name: 'Morning Desert Safari Dubai – Desert Raja',
       img: '/assets/images/home/overnight-desert-safari-2-740x680.webp',
       aed: 'AED400',
       hours: '12 hours',
+      to:"/tour/morning-desert-safari",
     },
     {
       name: 'Overnight Desert Stay Dubai – Desert Raja',
       img: '/assets/images/home/morning-desert-safari-4-740x680.jpg',
       aed: 'AED150',
       hours: '7 hours',
+      to:"/tour/overnight-desert-safari",
     },
     {
       name: 'Overnight Romantic Stay',
       img: '/assets/images/home/overnight-desert-safari-3-740x680.webp',
       aed: 'AED400 ',
       hours: '12 hours',
-  
+      to:"/tour/overnight-romantic-stay",
     },
   ];
 
+ 
 
   return (
     <div className='md:mb-[70px] lg:mb-[110px] mb-[20px]'>
@@ -42,7 +49,7 @@ function AlsoLike() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-4'>
           {data?.map((item,index)=>{
             return(
-              <div key={index} className='min-h-[365px] border border-brand-light-gray'>
+              <div key={index} className='min-h-[365px] border border-brand-light-gray' onClick={()=>router.push(`${item.to}`)}>
                 <div className=" overflow-hidden h-[200px] relative">
                   <img src={item.img} alt="" className='w-full h-full transition-all duration-300 hover:scale-110 cursor-pointer'/>
                   <BsFillHeartFill className=' absolute top-5 right-5 text-[25px] text-brand-gray'/>

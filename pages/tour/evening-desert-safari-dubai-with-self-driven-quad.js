@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
-import AlsoLike from '../../components/evening-desert-safari-dubai-with-self-driven-quad/AlsoLike';
+import AlsoLike from '../../components/evening-desert-safari-dubai-w-quad-in-fenced-big-desert-desert-raja/AlsoLike';
 import Calendar from '../../components/evening-desert-safari-dubai-with-self-driven-quad/Calendar';
 import TourLeft from '../../components/evening-desert-safari-dubai-with-self-driven-quad/TourLeft';
 import TourPage from '../../components/evening-desert-safari-dubai-with-self-driven-quad/TourPage';

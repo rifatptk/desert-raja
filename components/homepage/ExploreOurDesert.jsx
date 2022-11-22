@@ -1,9 +1,5 @@
 import React from 'react';
 import Container from '../common/Container';
-// import img1 from "/assets/images/home/overnight-desert-safari-1-740x680.webp"
-// import img2 from "/assets/images/home/overnight-desert-safari-2-740x680.webp"
-// import img3 from "/assets/images/home/morning-desert-safari-4-740x680.jpg"
-// import img4 from "/assets/images/home/overnight-desert-safari-3-740x680.webp"
 import HomeSlyder from './HomeSlyder';
 
 const ExploreOurDesert = () => {

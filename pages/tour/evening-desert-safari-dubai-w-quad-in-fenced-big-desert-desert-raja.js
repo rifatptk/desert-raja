@@ -30,7 +30,7 @@ const tour = () => {
           <div className="flex-[3]">
             <TourLeft />
           </div>
-          <div className="flex-[1] hidden md:block sticky top-0">
+          <div className="flex-[1] hidden md:block sticky top-0 h-auto">
             <Calendar />
           </div>
         </div>
