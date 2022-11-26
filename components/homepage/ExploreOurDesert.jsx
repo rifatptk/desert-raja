@@ -1,9 +1,5 @@
 import React from 'react';
 import Container from '../common/Container';
-// import img1 from "/assets/images/home/overnight-desert-safari-1-740x680.webp"
-// import img2 from "/assets/images/home/overnight-desert-safari-2-740x680.webp"
-// import img3 from "/assets/images/home/morning-desert-safari-4-740x680.jpg"
-// import img4 from "/assets/images/home/overnight-desert-safari-3-740x680.webp"
 import HomeSlyder from './HomeSlyder';
 
 const ExploreOurDesert = () => {
@@ -14,7 +10,7 @@ const ExploreOurDesert = () => {
       aed: 'AED149 /person',
       unl: 'unlimited',
       hours: '7 hours',
-      to: '/tour/evening-desert',
+      to:"/tour/evening-desert-safari",
     },
     {
       name: 'OverNight Desert Safari Dubai - Desert Raja',
@@ -22,7 +18,7 @@ const ExploreOurDesert = () => {
       aed: 'AED400 /person',
       unl: 'unlimited',
       hours: '12 hours',
-      to: '/tour/overnight-desert',
+      to: '/tour/overnight-desert-safari',
     },
     {
       name: 'Morning Desert Safari Dubai - Desert Raja',
@@ -30,7 +26,7 @@ const ExploreOurDesert = () => {
       aed: 'AED150 /person',
       unl: 'unlimited',
       hours: '7 hours',
-      to: '/tour/morning-desert',
+      to: '/tour/morning-desert-safari',
     },
     {
       name: 'Overnight Romantic Stay',
@@ -38,7 +34,7 @@ const ExploreOurDesert = () => {
       aed: 'AED400 /person',
       unl: '20 people',
       hours: '12 hours',
-      to: '/tour/overnight-desert',
+      to: '/tour/overnight-romantic-stay',
     },
   ];
 

@@ -16,7 +16,6 @@ const Accordion = () => {
   const dataEven = [
     {
       id: 1,
-      p: 'lofdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd',
       que: 'What is a desert safari?',
       ans: 'The typical planning of activities within a Bedouin-style camp is known as Desert Safari Dubai, which includes belly dancing, sandboarding, camel rides, henna tattoos, costume captures, as well as other entertainment shows and rides.',
     },

@@ -13,22 +13,17 @@ import TourFaq from "./TourFaq";
 
 
 const data = [
-  '/assets/images/home/dune-bashing.jpg',
-  '/assets/images/home/sand-boarding.jpg',
-  '/assets/images/home/camel-ride.jpg',
-  '/assets/images/home/buffet-dinner.jpg',
-  '/assets/images/home/atv-quad.jpg',
-  '/assets/images/home/fire-show.jpg',
-  'https://s.fotorama.io/1.jpg',
-  'https://s.fotorama.io/2.jpg',
-  'https://s.fotorama.io/3.jpg',
-  'https://s.fotorama.io/1.jpg',
-  'https://s.fotorama.io/2.jpg',
-  'https://s.fotorama.io/3.jpg',
-  'https://s.fotorama.io/1.jpg',
-  'https://s.fotorama.io/2.jpg',
-  'https://s.fotorama.io/3.jpg',
-];
+  '/assets/images/tour/evening-desert-safari/1.webp',
+  '/assets/images/tour/evening-desert-safari/2.jpg',
+  '/assets/images/tour/evening-desert-safari/3.jpg',
+  '/assets/images/tour/evening-desert-safari/4.webp',
+  '/assets/images/tour/evening-desert-safari/5.jpg',
+  '/assets/images/tour/evening-desert-safari/6.jpg',
+  '/assets/images/tour/evening-desert-safari/7.webp',
+  '/assets/images/tour/evening-desert-safari/8.jpg',
+  '/assets/images/tour/evening-desert-safari/9.webp',
+  '/assets/images/tour/evening-desert-safari/10.jpg',
+]
 
 
 const TourLeft = () => {

@@ -1,14 +1,18 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Container from '../../components/common/Container';
-import AlsoLike from '../../components/tourpage/AlsoLike';
-import Calendar from '../../components/tourpage/Calendar';
-import TourLeft from '../../components/tourpage/TourLeft';
-import TourPage from '../../components/tourpage/TourPage';
+import AlsoLike from '../../components/evening-desert-safari-dubai-w-quad-in-fenced-big-desert-desert-raja/AlsoLike';
+import Calendar from '../../components/evening-desert-safari-dubai-with-self-driven-quad/Calendar';
+import TourLeft from '../../components/morning-desert-safari/TourLeft';
+import TourPage from '../../components/morning-desert-safari/TourPage';
+import { homepageHeadData4 } from '../../constants/constants';
+
 
 const tour = () => {
   return (
     <div>
+      <Head>{homepageHeadData4}</Head>
       <TourPage />
       <Container>
         <div className="flex items-center gap-2 py-5">
@@ -17,7 +21,7 @@ const tour = () => {
           </Link>
           <div className="w-1 h-1 bg-slate-600 rounded-full"></div>
           <p className="text-[13px]">
-            Evening Desert Safari Dubai – Desert Raja
+          Morning Desert Safari Dubai – Desert Raja
           </p>
         </div>
       </Container>
